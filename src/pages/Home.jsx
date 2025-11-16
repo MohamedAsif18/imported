@@ -21,12 +21,11 @@ export default function Home() {
   ]
 
   const quickLinks = [
-    { img: githubLogo, title: 'GitHub', link: 'https://github.com/kunj2803' },
-    { img: linkedinLogo, title: 'LinkedIn', link: 'https://www.linkedin.com/in/kunj-desai-07717b293/' },
-    { img: gmailLogo, title: 'Email', link: 'mailto:kunjd2803@gmail.com' },
+    { img: githubLogo, title: 'GitHub', link: 'https://github.com/MohamedAsif18' },
+    { img: linkedinLogo, title: 'LinkedIn', link: 'https://www.linkedin.com/in/mohamed-asif-b-057832293/' },
+    { img: gmailLogo, title: 'Email', link: 'mailto:mohamedasif5off@gmail.com' },
     { img: whatsappLogo, title: 'WhatsApp', link: 'https://wa.me/+919847304669' },
-    { img: instagramLogo, title: 'Instagram', link: 'https://www.instagram.com/kunj_2834/' },
-    { img: facebookLogo, title: 'Facebook', link: 'https://www.facebook.com/kunj.desai.222608' },
+    { img: instagramLogo, title: 'Instagram', link: 'https://www.instagram.com/asif_virat_7/' },
   ]
 
   return (
