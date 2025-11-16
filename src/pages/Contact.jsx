@@ -129,12 +129,12 @@ export default function Contact() {
         transition={{ delay: 0.4, duration: 0.9 }}
         className="contact-form"
       >
-        <input type="text" name="name" placeholder="Your Name" value={form.name} onChange={handleChange} required />
-        <input type="text" name="contact" placeholder="Your Email or Phone" value={form.contact} onChange={handleChange} required />
+        <input type="text" name="name" placeholder="Y" value={form.name} onChange={handleChange} required />
+        <input type="text" name="contact" placeholder="Dont give proof" value={form.contact} onChange={handleChange} required />
         <input type="text" name="subject" placeholder="Subject" value={form.subject} onChange={handleChange} required />
-        <textarea name="message" placeholder="Your Message..." value={form.message} onChange={handleChange} rows="5" required />
+        <textarea name="message" placeholder="Message..." value={form.message} onChange={handleChange} rows="5" required />
         <motion.button type="submit" className="contact-btn" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-          🚀 Send Message
+          Dont send , Button not assigned yet
         </motion.button>
 
         {status && <motion.p initial={{ opacity: 0, y: 5 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.3 }} className="contact-status">{status}</motion.p>}
