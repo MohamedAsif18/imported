@@ -79,13 +79,13 @@ export default function Home() {
           className="home-info"
         >
           <h1 className="home-title">
-            Hi, I’m{'Mohamed Asif '}
+            Hi, I’m{' '}
             <motion.span
               animate={{ backgroundPositionX: ['0%', '200%'] }}
               transition={{ duration: 4, repeat: Infinity, ease: 'linear' }}
               className="home-name"
             >
-              Kunj Desai
+              Mohamed Asif
             </motion.span>
           </h1>
 
