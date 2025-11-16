@@ -53,16 +53,16 @@ export default function Resume() {
         >
           <div>
             <h3 style={{ fontSize: 24, color: "#00b4ff", marginBottom: 4 }}>
-              👨‍💻 KUNJ D. DESAI
+              👨‍💻 Mohamed Asif
             </h3>
             <p style={{ margintop: 10, fontSize: 15, color: "#ccc" }}>
-              4th Year B.Tech — AI & Data Science | S.C.E.T, Sarvajanik University
+              3rd Year BSc — Information Technology | N.G.M , Bharathiar University
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
-              📍 Jahangirpura, Surat, Gujarat
+              📍 Pollachi, Coimbatore, Tamilnadu
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
-              ✉️ kunjd2803@gmail.com | 📞 +91 8758209508
+              ✉️ mohamedasif5off@gmail.com | 📞 +91 9847304669
             </p>
           </div>
 
@@ -106,25 +106,25 @@ export default function Resume() {
           </h4>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
             <li>
-              <strong>B.Tech in Artificial Intelligence & Data Science</strong> — S.C.E.T
-              (Sarvajanik University), 2022–2026 <br />
-              <span style={{ color: "#aaa" }}>GPA: 9.0</span>
+              <strong>BSc in Information Technology</strong> — N .G .M
+              (Bharathiar University), 2021–2024 <br />
+              <span style={{ color: "#aaa" }}>GPA: 6.9</span>
             </li>
             <li style={{ marginTop: 8 }}>
-              <strong>12th Board — R.S.M. Poonawala Experimental School</strong> (Gujarat
-              Board, 2022) <br />
-              <span style={{ color: "#aaa" }}>Percentage: 78%</span>
+              <strong>12th Board — B .G .H Secondary School</strong> (Kerala
+              Board of education, 2020 - 2021) <br />
+              <span style={{ color: "#aaa" }}>Percentage: 96%</span>
             </li>
             <li style={{ marginTop: 8 }}>
-              <strong>10th Board — Ambika Niketan School</strong> (Gujarat Board, 2020)
+              <strong>10th Board — St Martin's high School</strong> (Kerala Board of education, 2020)
               <br />
               <span style={{ color: "#aaa" }}>Percentage: 85%</span>
             </li>
           </ul>
         </motion.div>
-
+        
         {/* Projects */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8 }}
@@ -135,9 +135,9 @@ export default function Resume() {
             <li>1️⃣ Breast Cancer Detection from Mammograms using YOLO & CNN</li>
             <li>2️⃣ DocuChat: Document Q&A Chatbot (Gemini API)</li>
             <li>3️⃣ Indian Sign Language Interpreter (In Progress)</li>
-            <li>4️⃣ Mental Health Analyzer</li>
+            <li>4️⃣ Mental Health Analyzer</li> 
           </ul>
-        </motion.div>
+        </motion.div> */}
 
         {/* Skills */}
         <motion.div
@@ -198,9 +198,9 @@ export default function Resume() {
           }}
         >
           {[
-            { name: "🏆 LeetCode", link: "https://leetcode.com/u/Kunj_2803/" },
-            { name: "💻 GitHub", link: "https://github.com/kunj2803" },
-            { name: "💼 LinkedIn", link: "https://www.linkedin.com/in/kunj-desai-07717b293/" },
+          {/*{ name: "🏆 LeetCode", link: "https://leetcode.com/u/Kunj_2803/" }, */}
+            { name: "💻 GitHub", link: "https://github.com/MohamedAsif18" },
+            { name: "💼 LinkedIn", link: "https://www.linkedin.com/in/mohamed-asif-b-057832293/" },
           ].map((site) => (
             <motion.a
               key={site.name}
@@ -234,7 +234,7 @@ export default function Resume() {
         >
           <iframe
             src="/resume.pdf"
-            title="Kunj Desai Resume"
+            title="Mohamed Asif Resume"
             style={{
               width: "100%",
               height: "650px",
