@@ -7,7 +7,7 @@ import Gallery from './pages/Gallery'
 import Certificates from './pages/Certificates'
 import Blog from './pages/Blog'
 import Resume from './pages/Resume'
-import About from './pages/About'
+/*import About from './pages/About' */
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
 import SkillNetwork from './pages/Skills'  
@@ -25,7 +25,7 @@ export default function App() {
           <Route path="/certificates" element={<Certificates />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/about" element={<About />} /> {/* ✅ fixed lowercase */}
+          {/* <Route path="/about" element={<About />} /> {/* ✅ fixed lowercase */}
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
