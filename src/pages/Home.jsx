@@ -26,7 +26,7 @@ export default function Home() {
     { img: githubLogo, title: 'GitHub', link: 'https://github.com/kunj2803' },
     { img: linkedinLogo, title: 'LinkedIn', link: 'https://www.linkedin.com/in/kunj-desai-07717b293/' },
     { img: gmailLogo, title: 'Email', link: 'mailto:kunjd2803@gmail.com' },
-    { img: whatsappLogo, title: 'WhatsApp', link: 'https://wa.me/+918758209508' },
+    { img: whatsappLogo, title: 'WhatsApp', link: 'https://wa.me/+919847304669' },
     { img: instagramLogo, title: 'Instagram', link: 'https://www.instagram.com/kunj_2834/' },
     { img: facebookLogo, title: 'Facebook', link: 'https://www.facebook.com/kunj.desai.222608' },
   ]
@@ -62,7 +62,7 @@ export default function Home() {
           >
             <motion.img
               src={photo}
-              alt="Kunj Desai"
+              alt="Mohamed Asif"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 1 }}
