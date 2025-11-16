@@ -1,4 +1,4 @@
-import React from "react";
+{/*import React from "react";
 import { motion } from "framer-motion";
 import { FaUniversity, FaSchool, FaGraduationCap } from "react-icons/fa";
 
@@ -18,7 +18,7 @@ const AboutMe = () => {
       }}
     >
       {/* --- About Me + Education Section --- */}
-      <motion.div
+{/*      <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.4, duration: 0.8 }}
@@ -36,7 +36,7 @@ const AboutMe = () => {
         }}
       >
         {/* --- Header --- */}
-        <h2
+{/*     <h2
           style={{
             fontSize: "1.9rem",
             marginBottom: "1.2rem",
@@ -49,7 +49,7 @@ const AboutMe = () => {
         </h2>
 
         {/* --- Description --- */}
-        <p
+{/*       <p
           style={{
             fontSize: "1.1rem",
             color: "rgba(255,255,255,0.85)",
@@ -78,7 +78,7 @@ const AboutMe = () => {
         </p>
 
         {/* --- Education Section --- */}
-        <motion.div
+{/*       <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.8 }}
@@ -105,7 +105,7 @@ const AboutMe = () => {
             }}
           >
             {/* --- Education Card 1 --- */}
-            <motion.div
+{/*            <motion.div
               whileHover={{
                 scale: 1.02,
                 boxShadow: "0 0 25px rgba(0,255,200,0.15)",
@@ -150,7 +150,7 @@ const AboutMe = () => {
             </motion.div>
 
             {/* --- Education Card 2 --- */}
-            <motion.div
+{/*            <motion.div
               whileHover={{
                 scale: 1.02,
                 boxShadow: "0 0 25px rgba(0,255,200,0.15)",
@@ -195,7 +195,7 @@ const AboutMe = () => {
             </motion.div>
 
             {/* --- Education Card 3 --- */}
-            <motion.div
+{/*            <motion.div
               whileHover={{
                 scale: 1.02,
                 boxShadow: "0 0 25px rgba(0,255,200,0.15)",
