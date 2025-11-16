@@ -5,13 +5,13 @@ import { motion, AnimatePresence } from "framer-motion";
 const CERTS = {
   tech: [
     {
-      title: "Flipkart Hackathon",
-      org: "Flipkart",
-      date: "2022",
+      title: "OCI Foundation Associate",
+      org: "Oracle",
+      date: "2025",
       img: "/certs/flipkart.jpg",
       link: "/certs/flipkart.jpg",
     },
-    {
+    /*{
       title: "Solution Challenge",
       org: "Google Developers",
       date: "2023",
@@ -47,7 +47,7 @@ const CERTS = {
       date: "2024",
       img: "/certs/dataloom.png",
       link: "/certs/dataloom.png",
-    },
+    },*/
   ],
 };
 
