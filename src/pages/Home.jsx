@@ -79,7 +79,7 @@ export default function Home() {
           className="home-info"
         >
           <h1 className="home-title">
-            Hi, I’m{' '}
+            Hi, I’m{'Mohamed Asif '}
             <motion.span
               animate={{ backgroundPositionX: ['0%', '200%'] }}
               transition={{ duration: 4, repeat: Infinity, ease: 'linear' }}
@@ -91,7 +91,7 @@ export default function Home() {
 
           {/* Typing Animated Text */}
           <p className="typing-effect">
-            Artificial Intelligence Engineer | Frontend Developer | Tech Explorer
+            Oracle Administrator | Tech Explorer
           </p>
 
           {/* Profession Tags */}
@@ -106,9 +106,9 @@ export default function Home() {
           {/* Info Cards */}
           <motion.div className="info-cards">
             {[
-              { label: '📍 Location', value: 'Surat, Gujarat, India' },
-              { label: '💼 Expertise', value: 'AI/ML, Problem Solving' },
-              { label: '📧 Contact', value: 'kunjd2803@gmail.com' },
+              { label: '📍 Location', value: 'Palakkad, Kerala, India' },
+              { label: '💼 Expertise', value: 'Oracle Administrator' },
+              { label: '📧 Contact', value: 'mohamedasif5off@gmail.com' },
             ].map((info, i) => (
               <motion.div key={i} whileHover={{ y: -4, scale: 1.05 }} transition={{ type: 'spring', stiffness: 250 }} className="info-card">
                 <strong>{info.label}</strong>
