@@ -195,7 +195,7 @@ export default function Resume() {
           }}
         >
           {[
-          {/*{ name: "🏆 LeetCode", link: "https://leetcode.com/u/Kunj_2803/" }, */}
+          { name: "🏆 ", link: "https://leetcode.com/" },
             { name: "💻 GitHub", link: "https://github.com/MohamedAsif18" },
             { name: "💼 LinkedIn", link: "https://www.linkedin.com/in/mohamed-asif-b-057832293/" },
           ].map((site) => (
