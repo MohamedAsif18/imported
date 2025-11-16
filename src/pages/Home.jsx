@@ -15,11 +15,9 @@ import facebookLogo from '../../public/facebook.png'
 
 export default function Home() {
   const professions = [
-    'AI Enthusiast',
-    'Machine Learning Engineer',
-    "Deep Learning Expert",
     'Computer Vision Researcher',
-    'Developer',
+    'Tech Consultant',
+    "AI Enthusiast",
   ]
 
   const quickLinks = [
