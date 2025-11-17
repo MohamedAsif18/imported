@@ -21,7 +21,7 @@ const SKILLS = [
 
 const ROWS = [
   [
-    { title: "Terminal": [ "Linux" ] },
+    { title: "Terminal", items: ["Linux"] },
     { title: "Web Technologies", items: ["HTML"] },
     { title: "Databases", items: ["Oracle"] },
     { title: "Tools", items: ["OEM", "ServiceNow", "GitHub"] },
