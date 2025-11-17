@@ -146,22 +146,6 @@ export default function Resume() {
           <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>⚙️ Skills</h4>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
             {[
-              "Python",
-              "C",
-              "C++",
-              "Java",
-              "TensorFlow",
-              "PyTorch",
-              "Scikit-learn",
-              "OpenCV",
-              "YOLO",
-              "Streamlit",
-              "React",
-              "MySQL",
-              "MongoDB",
-              "Git",
-              "NLP",
-              "Explainable AI (XAI)",
               "Problem Solving",
               "Teamwork",
               "Adaptability",
