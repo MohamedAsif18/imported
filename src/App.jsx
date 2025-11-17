@@ -7,7 +7,7 @@ import Gallery from './pages/Gallery'
 import Certificates from './pages/Certificates'
 import Blog from './pages/Blog'
 import Resume from './pages/Resume'
-/*import About from './pages/About' */
+import About from './pages/About' 
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
 import SkillNetwork from './pages/Skills'  
